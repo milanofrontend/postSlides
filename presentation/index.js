@@ -1,86 +1,122 @@
 // Import React
 import React from "react";
-
-// Import Spectacle Core tags
-import {
-  BlockQuote,
-  Cite,
-  Deck,
-  Heading,
-  ListItem,
-  List,
-  Quote,
-  Slide,
-  Text
-} from "spectacle";
+import styled from "styled-components";
 
 // Import image preloader util
 import preloader from "spectacle/lib/utils/preloader";
 
-// Import theme
-import createTheme from "spectacle/lib/themes/default";
+// Import Spectacle Core tags
+import {
+  Deck,
+  Heading,
+  Image,
+  Slide,
+  Text
+} from "spectacle";
+
+import withPartecipants from "../modules/partecipants";
+import Raffle from "../components/raffle";
+import Counter from "../components/counter";
+import QRCode from "../components/qrcode";
+import Logo from "../components/mfe-logo";
+
+import {
+  theme,
+  url,
+  poll,
+  prices,
+  timer,
+  nextTalk
+} from "../configuration";
 
 // Require CSS
 require("normalize.css");
 require("spectacle/lib/themes/default/index.css");
 
-
 const images = {
-  city: require("../assets/city.jpg"),
-  kat: require("../assets/kat.png"),
-  logo: require("../assets/formidable-logo.svg"),
-  markdown: require("../assets/markdown.png")
+  wwy: require("../assets/wwy.jpg")
 };
-
 preloader(images);
 
-const theme = createTheme({
-  primary: "white",
-  secondary: "#1F2022",
-  tertiary: "#03A9FC",
-  quartenary: "#CECECE"
-}, {
-  primary: "Montserrat",
-  secondary: "Helvetica"
-});
+@withPartecipants(url)
+class MFERaffle extends React.Component {
+  render() {
+    return <Raffle {...this.props} />;
+  }
+}
+
+@withPartecipants(url)
+class MFERafflePartecipants extends React.Component {
+  render() {
+    return <Counter {...this.props} />;
+  }
+}
+
+const A = styled.a`
+  color: currentColor;
+  text-decoration: none;
+  border-bottom: 1px solid currentColor;
+  padding-bottom: 3px;
+`;
 
 export default class Presentation extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      winners: localStorage.getItem("winners") || []
+    };
+    this.onRaffle = this.onRaffle.bind(this);
+  }
+
+  onRaffle(winners) {
+    this.setState({ winners });
+    localStorage.setItem("winners", winners);
+  }
+
   render() {
     return (
-      <Deck transition={["zoom", "slide"]} transitionDuration={500} theme={theme}>
-        <Slide transition={["zoom"]} bgColor="primary">
-          <Heading size={1} fit caps lineHeight={1} textColor="secondary">
-            Spectacle Boilerplate
-          </Heading>
-          <Text margin="10px 0 0" textColor="tertiary" size={1} fit bold>
-            open the presentation/index.js file to get started
-          </Text>
-        </Slide>
-        <Slide transition={["fade"]} bgColor="tertiary">
-          <Heading size={6} textColor="primary" caps>Typography</Heading>
-          <Heading size={1} textColor="secondary">Heading 1</Heading>
-          <Heading size={2} textColor="secondary">Heading 2</Heading>
-          <Heading size={3} textColor="secondary">Heading 3</Heading>
-          <Heading size={4} textColor="secondary">Heading 4</Heading>
-          <Heading size={5} textColor="secondary">Heading 5</Heading>
-          <Text size={6} textColor="secondary">Standard text</Text>
-        </Slide>
-        <Slide transition={["fade"]} bgColor="primary" textColor="tertiary">
-          <Heading size={6} textColor="secondary" caps>Standard List</Heading>
-          <List>
-            <ListItem>Item 1</ListItem>
-            <ListItem>Item 2</ListItem>
-            <ListItem>Item 3</ListItem>
-            <ListItem>Item 4</ListItem>
-          </List>
-        </Slide>
-        <Slide transition={["fade"]} bgColor="secondary" textColor="primary">
-          <BlockQuote>
-            <Quote>Example Quote</Quote>
-            <Cite>Author</Cite>
-          </BlockQuote>
-        </Slide>
-      </Deck>
+      <div>
+        <Deck transition={["zoom", "slide"]} transitionDuration={500} theme={theme}>
+          <Slide transition={["fade"]} bgColor="dark" textColor="primary" id="💬">
+            <Heading size={3} textColor="primary">Follow up</Heading>
+            <Logo />
+            <A href="http://milanofrontend.herokuapp.com/">
+              milanofrontend.herokuapp.com
+            </A>
+          </Slide>
+          <Slide transition={["fade"]} bgColor="primary" id="⁉️">
+            <Heading size={6} textColor="secondary" caps>Feedback please</Heading>
+            <Heading size={3} textColor="secondary">Join the raffle!</Heading>
+            <QRCode url={poll} />
+            <div><A href={poll}>{poll}</A></div>
+          </Slide>
+          <Slide transition={["fade"]} bgColor="primary" id="👇">
+            <Heading size={3} textColor="secondary" caps>We want you</Heading>
+            <Image src={images.wwy} />
+            <A href="https://github.com/milanofrontend/talks">
+              github.com/milanofrontend/talks
+            </A>
+          </Slide>
+          <Slide transition={["fade"]} bgColor="primary" id="🗣">
+            <Heading size={6} textColor="secondary" caps>
+              Next talk: {nextTalk.date}
+            </Heading>
+            <Heading size={3} textColor="secondary">{nextTalk.title}</Heading>
+            <Text textColor="secondary">
+              {nextTalk.speaker} {nextTalk.twitter}
+            </Text>
+          </Slide>
+          <Slide transition={["fade"]} bgColor="primary" id="🏆">
+            <Heading size={3} textColor="secondary">Raffle</Heading>
+            <MFERaffle prices={prices} timer={timer} winners={this.state.winners} handleRaffle={this.onRaffle} />
+          </Slide>
+          <Slide transition={["fade"]} bgColor="secondary" id="🖖">
+            <Heading size={6} textColor="primary" caps>Thank you</Heading>
+            <Heading size={4} textColor="primary">🖖 Live long and prosper</Heading>
+          </Slide>
+        </Deck>
+        <MFERafflePartecipants />
+      </div>
     );
   }
 }
