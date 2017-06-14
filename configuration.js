@@ -15,7 +15,7 @@ export const theme = createTheme({
   secondary: "Helvetica"
 });
 
-export const url = `https://spreadsheets.google.com/feeds/list/${talk.spreadsheet}/1/public/basic?alt=json`;
+export const url = talk.spreadsheet;
 export const poll = talk.form;
 export const prices = talk.prices;
 export const timer = 3;
