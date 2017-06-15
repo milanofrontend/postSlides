@@ -3,6 +3,7 @@ import createTheme from "spectacle/lib/themes/default";
 import talks from "./talks";
 
 const talk = talks.t201706;
+const debug = true;
 
 export const theme = createTheme({
   primary: "white",
@@ -15,7 +16,7 @@ export const theme = createTheme({
   secondary: "Helvetica"
 });
 
-export const url = talk.spreadsheet;
+export const url = debug ? false : talk.spreadsheet;
 export const poll = talk.form;
 export const prices = talk.prices;
 export const timer = 3;
