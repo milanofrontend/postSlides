@@ -63,14 +63,14 @@ export default class Presentation extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      winners: localStorage.getItem("winners") || []
+      winners: JSON.parse(localStorage.getItem("winners")) || []
     };
     this.onRaffle = this.onRaffle.bind(this);
   }
 
   onRaffle(winners) {
     this.setState({ winners });
-    localStorage.setItem("winners", winners);
+    localStorage.setItem("winners", JSON.stringify(winners));
   }
 
   render() {
