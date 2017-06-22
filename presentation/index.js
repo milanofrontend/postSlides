@@ -11,7 +11,9 @@ import {
   Heading,
   Image,
   Slide,
-  Text
+  Text,
+  List,
+  ListItem
 } from "spectacle";
 
 import withPartecipants from "../modules/partecipants";
@@ -105,6 +107,17 @@ export default class Presentation extends React.Component {
             <Text textColor="secondary">
               {nextTalk.speaker} {nextTalk.twitter}
             </Text>
+          </Slide>
+          <Slide transition={["fade"]} bgColor="primary" id="🍕">
+            <Heading size={6} textColor="secondary" caps>
+              Thanks to:
+            </Heading>
+            <List>
+              <ListItem>Mikamai<small>.com ➡</small> <big>🏠</big></ListItem>
+              <ListItem>Codemotion<small>.it ➡</small> <big>🍺</big></ListItem>
+              <ListItem>Crebs<small>.it ➡</small> <big>🍕</big></ListItem>
+              <ListItem>JetBrains<small>.com ➡</small> <big>🔏</big></ListItem>
+            </List>
           </Slide>
           <Slide transition={["fade"]} bgColor="primary" id="🏆">
             <Heading size={3} textColor="secondary">Raffle</Heading>
