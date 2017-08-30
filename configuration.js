@@ -3,7 +3,7 @@ import createTheme from "spectacle/lib/themes/default";
 import talks from "./talks";
 
 const talk = talks.t201706;
-const debug = true;
+const debug = false;
 
 export const theme = createTheme({
   primary: "white",
