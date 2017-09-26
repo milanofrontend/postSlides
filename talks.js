@@ -8,17 +8,24 @@ export default {
     date: "27 Giugno",
     form: "https://goo.gl/pOigK2",
     spreadsheet: spreadsheetUrl("1j3-BnbqDxv1czcfVFr4d0fyMrHMjT3EZz_j8uMBfni0"),
-    prices: ["jetbrain license", "jetbrain license"],
-    next: "t201707"
+    prices: ["jetbrain license", "jetbrain license"]
   },
-  t201707: {
+  current: {
+    title: "Inspecting, debugging and profiling con Chrome Developer Tools",
+    speaker: "Giacomo Zinetti",
+    twitter: "@gcmznt",
+    date: "26 Settembre",
+    form: "https://goo.gl/2QfCqd",
+    spreadsheet: spreadsheetUrl("1IqfOkj1TfGrrEB3pJfudlW6BkzuJduGynosQ2gDtqtI"),
+    prices: ["jetbrain license", "jetbrain license"]
+  },
+  next: {
     title: "??!!!?",
     speaker: "Forse tu?",
     twitter: "",
-    date: "25 Luglio",
+    date: "31 Ottobre",
     form: "",
     spreadsheet: "",
-    prices: ["jetbrain license", "jetbrain license"],
-    next: false
+    prices: ["jetbrain license", "jetbrain license"]
   }
 };

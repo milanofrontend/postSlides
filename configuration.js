@@ -2,8 +2,8 @@
 import createTheme from "spectacle/lib/themes/default";
 import talks from "./talks";
 
-const talk = talks.t201706;
-const debug = true;
+const talk = talks.current;
+const debug = false;
 
 export const theme = createTheme({
   primary: "white",
@@ -21,4 +21,4 @@ export const poll = talk.form;
 export const prices = talk.prices;
 export const timer = 3;
 
-export const nextTalk = (talk.next) ? talks[talk.next] : { title: "???" };
+export const nextTalk = (talks.next) ? talks.next : { title: "???" };
