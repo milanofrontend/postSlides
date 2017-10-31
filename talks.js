@@ -26,7 +26,18 @@ export default {
     date: "31 Ottobre",
     form: "https://goo.gl/abhUzx",
     spreadsheet: spreadsheetUrl("1yNfKX3eZcPdW3o5xWiZKRRdGw2Uqo4IjMGD0s6qFg90"),
-    prices: ["jetbrain license", "jetbrain license"]
+    prices: [
+      "jetbrain license",
+      "jetbrain license",
+      "codemotion ticket",
+      "tshirt",
+      "tshirt",
+      "tshirt",
+      "tshirt",
+      "tshirt",
+      "tshirt",
+      "tshirt",
+    ]
   },
   next: {
     title: "??!!!?",

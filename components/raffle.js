@@ -106,6 +106,7 @@ export default class Raffle extends React.Component {
                 <Winner key={i} title={e.emailaddress}>
                   <span title={winners.find((w) => w.emailaddress === e.emailaddress).price}>🏆 </span>
                   {e.cometichiami}
+                  <small>[{winners.find((w) => w.emailaddress === e.emailaddress).price}]</small>
                 </Winner>
               ) : (
                 <Partecipant key={i} title={e.emailaddress}>
