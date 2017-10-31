@@ -113,7 +113,7 @@ export default class Presentation extends React.Component {
               Thanks to:
             </Heading>
             <List>
-              <ListItem>Credimi<small>.com ➡</small> <big>🏠</big></ListItem>
+              <ListItem>Mikamai<small>.com ➡</small> <big>🏠</big></ListItem>
               <ListItem>Codemotion<small>.it ➡</small> <big>🍺</big></ListItem>
               <ListItem>Crebs<small>.it ➡</small> <big>🍕</big></ListItem>
               <ListItem>JetBrains<small>.com ➡</small> <big>🔏</big></ListItem>
@@ -123,9 +123,9 @@ export default class Presentation extends React.Component {
             <Heading size={3} textColor="secondary">Raffle</Heading>
             <MFERaffle prices={prices} timer={timer} winners={this.state.winners} handleRaffle={this.onRaffle} />
           </Slide>
-          <Slide transition={["fade"]} bgColor="secondary" id="🐬">
-            <Heading size={4} textColor="primary">🐬</Heading>
-            <Heading size={6} textColor="primary">So long and thanks for all the fish</Heading>
+          <Slide transition={["fade"]} bgColor="secondary" id="👻">
+            <Heading size={4} textColor="primary">👻</Heading>
+            <Heading size={6} textColor="primary">We came, we saw, we kicked its ass!</Heading>
           </Slide>
         </Deck>
         <MFERafflePartecipants />
