@@ -19,7 +19,7 @@ export default {
     spreadsheet: spreadsheetUrl("1IqfOkj1TfGrrEB3pJfudlW6BkzuJduGynosQ2gDtqtI"),
     prices: ["jetbrain license", "jetbrain license"]
   },
-  current: {
+  t201710: {
     title: "Refactoring CSS",
     speaker: "Mattia Tommasone",
     twitter: "@raibaz",
@@ -39,13 +39,22 @@ export default {
       "tshirt",
     ]
   },
+  current: {
+    title: "Scrum Wars: Manuale di sopravvivenza agilep er frontenders",
+    speaker: "Simone Lelli",
+    twitter: "@simonelelli",
+    date: "28 Novembre",
+    form: "https://goo.gl/1EpvDV",
+    spreadsheet: spreadsheetUrl("1ClpVr_TBdCgVAwUv4uYm68_obeyr4N8gw84bRHFhpik"),
+    prices: ["jetbrain license", "jetbrain license"]
+  },
   next: {
     title: "??!!!?",
     speaker: "Forse tu?",
     twitter: "",
-    date: "28 Novembre",
+    date: "19 Dicembre",
     form: "",
     spreadsheet: "",
-    prices: ["jetbrain license", "jetbrain license"]
+    prices: []
   }
 };
