@@ -21,7 +21,8 @@ require("normalize.css");
 require("spectacle/lib/themes/default/index.css");
 
 const images = {
-  wwy: require("../assets/wwy.jpg")
+  wwy: require("../assets/wwy.jpg"),
+  natale: require("../assets/natale.png")
 };
 preloader(images);
 
@@ -144,13 +145,17 @@ export default class Presentation extends React.Component {
               handleRaffle={this.onRaffle}
             />
           </Slide>
-          <Slide transition={["fade"]} bgColor="secondary" id="⚔️">
-            <Heading size={4} textColor="primary">
+          <Slide transition={["fade"]} bgColor="secondary" id="🎄">
+            <Heading size={3} textColor="primary">
+              Buon Natale 🎄
+            </Heading>
+            <Image src={images.natale} />
+            {/* <Heading size={4} textColor="primary">
               ⚔️
             </Heading>
             <Heading size={6} textColor="primary">
               May the force be with you!
-            </Heading>
+            </Heading> */}
           </Slide>
         </Deck>
         <MFERafflePartecipants />

@@ -39,7 +39,7 @@ export default {
       "tshirt",
     ]
   },
-  current: {
+  t201711: {
     title: "Scrum Wars: Manuale di sopravvivenza agilep er frontenders",
     speaker: "Simone Lelli",
     twitter: "@simonelelli",
@@ -48,11 +48,20 @@ export default {
     spreadsheet: spreadsheetUrl("1ClpVr_TBdCgVAwUv4uYm68_obeyr4N8gw84bRHFhpik"),
     prices: ["jetbrain license", "jetbrain license"]
   },
+  current: {
+    title: "What Service Workers can do",
+    speaker: "Maurizio Mangione",
+    twitter: "@granze",
+    date: "19 Dicembre",
+    form: "https://goo.gl/2Kgpxx",
+    spreadsheet: spreadsheetUrl("1iJpYSsRDlXKLcCDbHyxnALwi7JDhrDzZuYSUN_wqhRs"),
+    prices: ["jetbrain license", "jetbrain license"]
+  },
   next: {
     title: "??!!!?",
     speaker: "Forse tu?",
     twitter: "",
-    date: "19 Dicembre",
+    date: "30 Gennaio",
     form: "",
     spreadsheet: "",
     prices: []
