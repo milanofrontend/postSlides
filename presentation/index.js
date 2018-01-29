@@ -145,17 +145,17 @@ export default class Presentation extends React.Component {
               handleRaffle={this.onRaffle}
             />
           </Slide>
-          <Slide transition={["fade"]} bgColor="secondary" id="🎄">
-            <Heading size={3} textColor="primary">
+          <Slide transition={["fade"]} bgColor="secondary" id="😎">
+            {/* <Heading size={3} textColor="primary">
               Buon Natale 🎄
             </Heading>
-            <Image src={images.natale} />
+            <Image src={images.natale} /> */}
             {/* <Heading size={4} textColor="primary">
               ⚔️
-            </Heading>
-            <Heading size={6} textColor="primary">
-              May the force be with you!
             </Heading> */}
+            <Heading size={6} textColor="primary">
+              Thank you
+            </Heading>
           </Slide>
         </Deck>
         <MFERafflePartecipants />

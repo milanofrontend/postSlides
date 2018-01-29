@@ -48,7 +48,7 @@ export default {
     spreadsheet: spreadsheetUrl("1ClpVr_TBdCgVAwUv4uYm68_obeyr4N8gw84bRHFhpik"),
     prices: ["jetbrain license", "jetbrain license"]
   },
-  current: {
+  t201712: {
     title: "What Service Workers can do",
     speaker: "Maurizio Mangione",
     twitter: "@granze",
@@ -57,11 +57,20 @@ export default {
     spreadsheet: spreadsheetUrl("1iJpYSsRDlXKLcCDbHyxnALwi7JDhrDzZuYSUN_wqhRs"),
     prices: ["jetbrain license", "jetbrain license"]
   },
+  current: {
+    title: "Let's make frontend fun again!",
+    speaker: "Salvatore Laisa",
+    twitter: "@moebiusmania",
+    date: "30 Gennaio",
+    form: "https://goo.gl/g2AFBH",
+    spreadsheet: spreadsheetUrl("1FUdcbYTzJqs2_i6qKHwmPBLyPlJX4VbJTjP9QQjIKBM"),
+    prices: ["jetbrain license", "jetbrain license", "React Amsterdam"]
+  },
   next: {
     title: "??!!!?",
     speaker: "Forse tu?",
     twitter: "",
-    date: "30 Gennaio",
+    date: "27 Febbraio",
     form: "",
     spreadsheet: "",
     prices: []
