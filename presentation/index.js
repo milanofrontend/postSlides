@@ -123,9 +123,9 @@ export default class Presentation extends React.Component {
               <ListItem>
                 Mikamai<small>.com ➡</small> <big>🏠</big>
               </ListItem>
-              <ListItem>
+              {/* <ListItem>
                 Codemotion<small>.it ➡</small> <big>🍺</big>
-              </ListItem>
+              </ListItem> */}
               <ListItem>
                 Crebs<small>.it ➡</small> <big>🍕</big>
               </ListItem>
