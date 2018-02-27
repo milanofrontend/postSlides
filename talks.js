@@ -1,7 +1,9 @@
-const spreadsheetUrl = (k) => `https://spreadsheets.google.com/feeds/list/${k}/1/public/basic?alt=json`;
+const spreadsheetUrl = (k) =>
+  `https://spreadsheets.google.com/feeds/list/${k}/1/public/basic?alt=json`;
 
 export default {
   t201706: {
+    id: "t201706",
     title: "Le performance come esperienza religiosa",
     speaker: "Andrea De Carolis",
     twitter: "@decarola",
@@ -11,6 +13,7 @@ export default {
     prices: ["jetbrain license", "jetbrain license"]
   },
   t201709: {
+    id: "t201709",
     title: "Inspecting, debugging and profiling con Chrome Developer Tools",
     speaker: "Giacomo Zinetti",
     twitter: "@gcmznt",
@@ -20,6 +23,7 @@ export default {
     prices: ["jetbrain license", "jetbrain license"]
   },
   t201710: {
+    id: "t201710",
     title: "Refactoring CSS",
     speaker: "Mattia Tommasone",
     twitter: "@raibaz",
@@ -36,10 +40,11 @@ export default {
       "tshirt",
       "tshirt",
       "tshirt",
-      "tshirt",
+      "tshirt"
     ]
   },
   t201711: {
+    id: "t201711",
     title: "Scrum Wars: Manuale di sopravvivenza agilep er frontenders",
     speaker: "Simone Lelli",
     twitter: "@simonelelli",
@@ -49,6 +54,7 @@ export default {
     prices: ["jetbrain license", "jetbrain license"]
   },
   t201712: {
+    id: "t201712",
     title: "What Service Workers can do",
     speaker: "Maurizio Mangione",
     twitter: "@granze",
@@ -57,7 +63,8 @@ export default {
     spreadsheet: spreadsheetUrl("1iJpYSsRDlXKLcCDbHyxnALwi7JDhrDzZuYSUN_wqhRs"),
     prices: ["jetbrain license", "jetbrain license"]
   },
-  current: {
+  t201801: {
+    id: "t201801",
     title: "Let's make frontend fun again!",
     speaker: "Salvatore Laisa",
     twitter: "@moebiusmania",
@@ -66,7 +73,18 @@ export default {
     spreadsheet: spreadsheetUrl("1FUdcbYTzJqs2_i6qKHwmPBLyPlJX4VbJTjP9QQjIKBM"),
     prices: ["jetbrain license", "jetbrain license", "React Amsterdam"]
   },
+  current: {
+    id: "t201802",
+    title: "Atomic Design: Pensare a Componenti Modulari",
+    speaker: "Paul Jesus Benites Romero",
+    twitter: "@pjbenitesromero",
+    date: "27 Febbraio",
+    form: "https://goo.gl/9ZfhxL",
+    spreadsheet: spreadsheetUrl("1gV9N7pFQvHIL3pDWm8w7Wjcrh9nZe4nACU82xPRiFGo"),
+    prices: ["jetbrain license", "jetbrain license"]
+  },
   next: {
+    id: "next",
     title: "??!!!?",
     speaker: "Forse tu?",
     twitter: "",

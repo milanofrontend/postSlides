@@ -14,7 +14,15 @@ import Counter from "../components/counter";
 import QRCode from "../components/qrcode";
 import Logo from "../components/mfe-logo";
 
-import { theme, url, poll, prices, timer, nextTalk } from "../configuration";
+import {
+  theme,
+  url,
+  poll,
+  prices,
+  timer,
+  currentTalk,
+  nextTalk
+} from "../configuration";
 
 // Require CSS
 require("normalize.css");
@@ -51,14 +59,15 @@ export default class Presentation extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      winners: JSON.parse(localStorage.getItem("winners")) || []
+      winners:
+        JSON.parse(localStorage.getItem(`winners-${currentTalk.id}`)) || []
     };
     this.onRaffle = this.onRaffle.bind(this);
   }
 
   onRaffle(winners) {
     this.setState({ winners });
-    localStorage.setItem("winners", JSON.stringify(winners));
+    localStorage.setItem(`winners-${currentTalk.id}`, JSON.stringify(winners));
   }
 
   render() {
