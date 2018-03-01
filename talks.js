@@ -88,7 +88,7 @@ export default {
     title: "??!!!?",
     speaker: "Forse tu?",
     twitter: "",
-    date: "27 Febbraio",
+    date: "27 Marzo",
     form: "",
     spreadsheet: "",
     prices: []
