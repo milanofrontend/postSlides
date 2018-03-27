@@ -73,7 +73,7 @@ export default {
     spreadsheet: spreadsheetUrl("1FUdcbYTzJqs2_i6qKHwmPBLyPlJX4VbJTjP9QQjIKBM"),
     prices: ["jetbrain license", "jetbrain license", "React Amsterdam"]
   },
-  current: {
+  t201802: {
     id: "t201802",
     title: "Atomic Design: Pensare a Componenti Modulari",
     speaker: "Paul Jesus Benites Romero",
@@ -83,12 +83,22 @@ export default {
     spreadsheet: spreadsheetUrl("1gV9N7pFQvHIL3pDWm8w7Wjcrh9nZe4nACU82xPRiFGo"),
     prices: ["jetbrain license", "jetbrain license"]
   },
+  current: {
+    id: "t201803",
+    title: "Incapsulamento e theming: le nuove frontiere dell'ultima sfida CSS",
+    speaker: "Massimo Artizzu",
+    twitter: "@MaxArt2501",
+    date: "27 Marzo",
+    form: "https://goo.gl/X7pjW2",
+    spreadsheet: spreadsheetUrl("1gWUvVEP54v6q-AOOBjCwfXoZShgm98WiRcfhWrshYYo"),
+    prices: ["jetbrain license", "jetbrain license"]
+  },
   next: {
     id: "next",
     title: "??!!!?",
     speaker: "Forse tu?",
     twitter: "",
-    date: "27 Marzo",
+    date: "24 Aprile",
     form: "",
     spreadsheet: "",
     prices: []
