@@ -83,7 +83,7 @@ export default {
     spreadsheet: spreadsheetUrl("1gV9N7pFQvHIL3pDWm8w7Wjcrh9nZe4nACU82xPRiFGo"),
     prices: ["jetbrain license", "jetbrain license"]
   },
-  current: {
+  t201803: {
     id: "t201803",
     title: "Incapsulamento e theming: le nuove frontiere dell'ultima sfida CSS",
     speaker: "Massimo Artizzu",
@@ -93,12 +93,22 @@ export default {
     spreadsheet: spreadsheetUrl("1gWUvVEP54v6q-AOOBjCwfXoZShgm98WiRcfhWrshYYo"),
     prices: ["jetbrain license", "jetbrain license"]
   },
+  current: {
+    id: "t201804",
+    title: "Super fast transitions",
+    speaker: "Giacomo Zinetti",
+    twitter: "@gcmznt",
+    date: "24 Aprile",
+    form: "https://goo.gl/p8uDC5",
+    spreadsheet: spreadsheetUrl("1IiQsmeiLVSPX0tGFnoO_C-IHwSLJmpiI3IQZsdR0fqg"),
+    prices: ["jetbrain license", "jetbrain license"]
+  },
   next: {
     id: "next",
     title: "??!!!?",
     speaker: "Forse tu?",
     twitter: "",
-    date: "24 Aprile",
+    date: "29 Maggio",
     form: "",
     spreadsheet: "",
     prices: []
