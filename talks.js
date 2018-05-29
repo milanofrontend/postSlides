@@ -1,4 +1,4 @@
-const spreadsheetUrl = (k) =>
+const spreadsheetUrl = k =>
   `https://spreadsheets.google.com/feeds/list/${k}/1/public/basic?alt=json`;
 
 export default {
@@ -93,7 +93,7 @@ export default {
     spreadsheet: spreadsheetUrl("1gWUvVEP54v6q-AOOBjCwfXoZShgm98WiRcfhWrshYYo"),
     prices: ["jetbrain license", "jetbrain license"]
   },
-  current: {
+  t201804: {
     id: "t201804",
     title: "Super fast transitions",
     speaker: "Giacomo Zinetti",
@@ -103,12 +103,22 @@ export default {
     spreadsheet: spreadsheetUrl("1IiQsmeiLVSPX0tGFnoO_C-IHwSLJmpiI3IQZsdR0fqg"),
     prices: ["jetbrain license", "jetbrain license"]
   },
+  current: {
+    id: "t201805",
+    title: "Mystery Box",
+    speaker: "Davide Di Pumpo",
+    twitter: "@MakhBeth",
+    date: "29 Maggio",
+    form: "https://goo.gl/u7ghDn",
+    spreadsheet: spreadsheetUrl("14naqcmlkQtiVsl8cx4nn5rAolifQMLWWfAw5O-eLSAI"),
+    prices: ["jetbrain license", "jetbrain license"]
+  },
   next: {
     id: "next",
     title: "??!!!?",
     speaker: "Forse tu?",
     twitter: "",
-    date: "29 Maggio",
+    date: "26 Giugno",
     form: "",
     spreadsheet: "",
     prices: []
