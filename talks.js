@@ -113,7 +113,7 @@ export default {
     spreadsheet: spreadsheetUrl("14naqcmlkQtiVsl8cx4nn5rAolifQMLWWfAw5O-eLSAI"),
     prices: ["jetbrain license", "jetbrain license"]
   },
-  current: {
+  t201806: {
     id: "t201806",
     title: "Deep dive into oceanic javascript animations with a greensock",
     speaker: "Alessandro Rigobello",
@@ -123,14 +123,34 @@ export default {
     spreadsheet: spreadsheetUrl("1r4cE2vWHvIwq_tRZ_VjCveUZe6RSgwPduJWsoAT8CSk"),
     prices: ["jetbrain license", "jetbrain license"]
   },
+  current: {
+    id: "t201809",
+    title: "Awesome Vue Vol.1",
+    speaker: "Claudio Bisconti",
+    twitter: "@claudiobisconti",
+    date: "24 Settembre",
+    form: "https://goo.gl/ddHv3t",
+    spreadsheet: spreadsheetUrl("1ZUtBZpLjE1fqZidLMF9yCaa3ChD6hSt0r9mzHSfmX_4"),
+    prices: ["jetbrain license", "jetbrain license"]
+  },
   next: {
     id: "next",
-    title: "??!!!?",
-    speaker: "Forse tu?",
-    twitter: "",
-    date: "Ultimo martedi del mese",
+    title: "Awesome Vue Vol.2",
+    speaker: "Claudio Bisconti",
+    twitter: "@claudiobisconti",
+    date: "30 Ottobre",
     form: "",
     spreadsheet: "",
-    prices: []
+    prices: ["jetbrain license", "jetbrain license"]
+    // },
+    // next: {
+    //   id: "next",
+    //   title: "??!!!?",
+    //   speaker: "Forse tu?",
+    //   twitter: "",
+    //   date: "Ultimo martedi del mese",
+    //   form: "",
+    //   spreadsheet: "",
+    //   prices: []
   }
 };
