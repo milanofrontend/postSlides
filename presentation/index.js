@@ -132,9 +132,9 @@ export default class Presentation extends React.Component {
               <ListItem>
                 Mikamai<small>.com ➡</small> <big>🏠</big>
               </ListItem>
-              {/* <ListItem>
-                Codemotion<small>.it ➡</small> <big>🍺</big>
-              </ListItem> */}
+              <ListItem>
+                Modo<small>.md ➡</small> <big>🍺</big>
+              </ListItem>
               <ListItem>
                 Crebs<small>.it ➡</small> <big>🍕</big>
               </ListItem>
