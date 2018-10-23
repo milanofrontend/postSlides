@@ -145,12 +145,22 @@ export default {
   },
   next: {
     id: "next",
-    title: "??!!!?",
-    speaker: "Forse tu?",
+    title: "Custom Properties",
+    speaker: "Jiayi Hu",
     twitter: "",
-    date: "Ultimo martedi del mese",
+    date: "27 Novembre",
     form: "",
     spreadsheet: "",
     prices: []
+  // },
+  // next: {
+  //   id: "next",
+  //   title: "??!!!?",
+  //   speaker: "Forse tu?",
+  //   twitter: "",
+  //   date: "Ultimo martedi del mese",
+  //   form: "",
+  //   spreadsheet: "",
+  //   prices: []
   }
 };
