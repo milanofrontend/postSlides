@@ -141,7 +141,21 @@ export default {
     date: "23 Ottobre",
     form: "https://goo.gl/GiAMsh",
     spreadsheet: spreadsheetUrl("1_-7gfq2xFOxJsWiG2obmym-9PBp31Io57N7Y3O1PlZg"),
-    prices: ["jetbrain license", "jetbrain license"]
+    prices: [
+      "jetbrain license",
+      "jetbrain license",
+      "codemotion ticket",
+      "tshirt",
+      "tshirt",
+      "tshirt",
+      "tshirt",
+      "tshirt",
+      "tshirt",
+      "tshirt",
+      "tshirt",
+      "tshirt",
+      "tshirt"
+    ]
   },
   next: {
     id: "next",
@@ -152,15 +166,15 @@ export default {
     form: "",
     spreadsheet: "",
     prices: []
-  // },
-  // next: {
-  //   id: "next",
-  //   title: "??!!!?",
-  //   speaker: "Forse tu?",
-  //   twitter: "",
-  //   date: "Ultimo martedi del mese",
-  //   form: "",
-  //   spreadsheet: "",
-  //   prices: []
+    // },
+    // next: {
+    //   id: "next",
+    //   title: "??!!!?",
+    //   speaker: "Forse tu?",
+    //   twitter: "",
+    //   date: "Ultimo martedi del mese",
+    //   form: "",
+    //   spreadsheet: "",
+    //   prices: []
   }
 };
