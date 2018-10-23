@@ -153,7 +153,6 @@ export default {
       "tshirt",
       "tshirt",
       "tshirt",
-      "tshirt",
       "tshirt"
     ]
   },
