@@ -123,7 +123,7 @@ export default {
     spreadsheet: spreadsheetUrl("1r4cE2vWHvIwq_tRZ_VjCveUZe6RSgwPduJWsoAT8CSk"),
     prices: ["jetbrain license", "jetbrain license"]
   },
-  current: {
+  t201809: {
     id: "t201809",
     title: "Awesome Vue Vol.1",
     speaker: "Claudio Bisconti",
@@ -133,24 +133,24 @@ export default {
     spreadsheet: spreadsheetUrl("1ZUtBZpLjE1fqZidLMF9yCaa3ChD6hSt0r9mzHSfmX_4"),
     prices: ["jetbrain license", "jetbrain license"]
   },
-  next: {
-    id: "next",
+  current: {
+    id: "t201810",
     title: "Awesome Vue Vol.2",
     speaker: "Claudio Bisconti",
     twitter: "@claudiobisconti",
-    date: "30 Ottobre",
+    date: "23 Ottobre",
+    form: "https://goo.gl/GiAMsh",
+    spreadsheet: spreadsheetUrl("1_-7gfq2xFOxJsWiG2obmym-9PBp31Io57N7Y3O1PlZg"),
+    prices: ["jetbrain license", "jetbrain license"]
+  },
+  next: {
+    id: "next",
+    title: "??!!!?",
+    speaker: "Forse tu?",
+    twitter: "",
+    date: "Ultimo martedi del mese",
     form: "",
     spreadsheet: "",
-    prices: ["jetbrain license", "jetbrain license"]
-    // },
-    // next: {
-    //   id: "next",
-    //   title: "??!!!?",
-    //   speaker: "Forse tu?",
-    //   twitter: "",
-    //   date: "Ultimo martedi del mese",
-    //   form: "",
-    //   spreadsheet: "",
-    //   prices: []
+    prices: []
   }
 };
