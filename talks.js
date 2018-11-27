@@ -133,7 +133,7 @@ export default {
     spreadsheet: spreadsheetUrl("1ZUtBZpLjE1fqZidLMF9yCaa3ChD6hSt0r9mzHSfmX_4"),
     prices: ["jetbrain license", "jetbrain license"]
   },
-  current: {
+  t201810: {
     id: "t201810",
     title: "Awesome Vue Vol.2",
     speaker: "Claudio Bisconti",
@@ -156,24 +156,24 @@ export default {
       "tshirt"
     ]
   },
+  current: {
+    id: "t201811",
+    title: "Il Rinascimento del CSS",
+    speaker: "Jiayi Hu",
+    twitter: "@jiayi_ghu",
+    date: "27 Novembre",
+    form: "https://goo.gl/Y77G9E",
+    spreadsheet: spreadsheetUrl("1ufyX7unzB62yNH0raZvxVZtTboIJTkNPWe9GGH_3o3A"),
+    prices: ["jetbrain license", "jetbrain license"]
+  },
   next: {
     id: "next",
-    title: "Custom Properties",
-    speaker: "Jiayi Hu",
+    title: "??!!!?",
+    speaker: "Forse tu?",
     twitter: "",
-    date: "27 Novembre",
+    date: "Ultimo martedi del mese",
     form: "",
-    spreadsheet: "",
-    prices: []
-    // },
-    // next: {
-    //   id: "next",
-    //   title: "??!!!?",
-    //   speaker: "Forse tu?",
-    //   twitter: "",
-    //   date: "Ultimo martedi del mese",
-    //   form: "",
-    //   spreadsheet: "",
-    //   prices: []
+    spreadsheet: spreadsheetUrl(""),
+    prices: ["jetbrain license", "jetbrain license"]
   }
 };

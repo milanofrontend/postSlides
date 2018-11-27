@@ -88,8 +88,8 @@ export default class Presentation extends React.Component {
               Follow up
             </Heading>
             <Logo />
-            <A href="http://milanofrontend.herokuapp.com/">
-              milanofrontend.herokuapp.com
+            <A href="https://frontendersmeetups.herokuapp.com/">
+              frontendersmeetups.herokuapp.com
             </A>
           </Slide>
           <Slide transition={["fade"]} bgColor="primary" id="⁉️">
@@ -109,9 +109,9 @@ export default class Presentation extends React.Component {
               We want you
             </Heading>
             <Image src={images.wwy} />
-            <A href="https://github.com/milanofrontend/talks">
+            {/* <A href="https://github.com/milanofrontend/talks">
               github.com/milanofrontend/talks
-            </A>
+            </A> */}
           </Slide>
           <Slide transition={["fade"]} bgColor="primary" id="🗣">
             <Heading size={6} textColor="secondary" caps>
