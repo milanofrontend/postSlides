@@ -156,7 +156,7 @@ export default {
       "tshirt"
     ]
   },
-  current: {
+  t201811: {
     id: "t201811",
     title: "Il Rinascimento del CSS",
     speaker: "Jiayi Hu",
@@ -164,6 +164,16 @@ export default {
     date: "27 Novembre",
     form: "https://goo.gl/Y77G9E",
     spreadsheet: spreadsheetUrl("1ufyX7unzB62yNH0raZvxVZtTboIJTkNPWe9GGH_3o3A"),
+    prices: ["jetbrain license", "jetbrain license"]
+  },
+  current: {
+    id: "t201812",
+    title: "Se Gutenberg fosse nato oggi",
+    speaker: "Giulia Talamonti",
+    twitter: "@giucot_",
+    date: "18 Dicembre",
+    form: "https://bit.ly/2EvSzwB",
+    spreadsheet: spreadsheetUrl("130DQoiGJCrOl7rTDAYKaUWeZ7mRY2QGzLThOwieenqY"),
     prices: ["jetbrain license", "jetbrain license"]
   },
   next: {
