@@ -166,7 +166,7 @@ export default {
     spreadsheet: spreadsheetUrl("1ufyX7unzB62yNH0raZvxVZtTboIJTkNPWe9GGH_3o3A"),
     prices: ["jetbrain license", "jetbrain license"]
   },
-  current: {
+  t201812: {
     id: "t201812",
     title: "Se Gutenberg fosse nato oggi",
     speaker: "Giulia Talamonti",
@@ -174,6 +174,16 @@ export default {
     date: "18 Dicembre",
     form: "https://bit.ly/2EvSzwB",
     spreadsheet: spreadsheetUrl("130DQoiGJCrOl7rTDAYKaUWeZ7mRY2QGzLThOwieenqY"),
+    prices: ["jetbrain license", "jetbrain license"]
+  },
+  current: {
+    id: "t201901",
+    title: "Di test end to end e Cypress",
+    speaker: "Daniele Di Lucido",
+    twitter: "@DanieleDiLucido",
+    date: "22 Gennaio",
+    form: "https://bit.ly/2RGk8eg",
+    spreadsheet: spreadsheetUrl("1ewryoQF776hEIY2DPF700rjcAOed7M_VsEvgq2XPtwk"),
     prices: ["jetbrain license", "jetbrain license"]
   },
   next: {
