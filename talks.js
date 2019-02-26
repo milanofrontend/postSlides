@@ -176,7 +176,7 @@ export default {
     spreadsheet: spreadsheetUrl("130DQoiGJCrOl7rTDAYKaUWeZ7mRY2QGzLThOwieenqY"),
     prices: ["jetbrain license", "jetbrain license"]
   },
-  current: {
+  t201901: {
     id: "t201901",
     title: "Di test end to end e Cypress",
     speaker: "Daniele Di Lucido",
@@ -184,6 +184,16 @@ export default {
     date: "22 Gennaio",
     form: "https://bit.ly/2RGk8eg",
     spreadsheet: spreadsheetUrl("1ewryoQF776hEIY2DPF700rjcAOed7M_VsEvgq2XPtwk"),
+    prices: ["jetbrain license", "jetbrain license"]
+  },
+  current: {
+    id: "t201901",
+    title: "GatsbyJS: il futuro è veloce",
+    speaker: "Marco Valsecchi",
+    twitter: "@valse",
+    date: "26 Febbraio",
+    form: "https://bit.ly/2TnHIMK",
+    spreadsheet: spreadsheetUrl("1v587IDlWd1e3P4kGvO4ej7WwnkjXTPOUN3sOxfZ3TzQ"),
     prices: ["jetbrain license", "jetbrain license"]
   },
   next: {
