@@ -186,14 +186,24 @@ export default {
     spreadsheet: spreadsheetUrl("1ewryoQF776hEIY2DPF700rjcAOed7M_VsEvgq2XPtwk"),
     prices: ["jetbrain license", "jetbrain license"]
   },
-  current: {
-    id: "t201901",
+  t201902: {
+    id: "t201902",
     title: "GatsbyJS: il futuro è veloce",
     speaker: "Marco Valsecchi",
     twitter: "@valse",
     date: "26 Febbraio",
     form: "https://bit.ly/2TnHIMK",
     spreadsheet: spreadsheetUrl("1v587IDlWd1e3P4kGvO4ej7WwnkjXTPOUN3sOxfZ3TzQ"),
+    prices: ["jetbrain license", "jetbrain license"]
+  },
+  current: {
+    id: "t201903",
+    title: "SOLID principles & Apollo GraphQL",
+    speaker: "Erdogan Tufa & Przemysław Fałowski",
+    twitter: "",
+    date: "27 Marzo",
+    form: "https://bit.ly/2Wr8nGo",
+    spreadsheet: spreadsheetUrl("1ZiCu588y_3eHrRlhkitu_eJCr9NBBHA9G_EGgY9mqxw"),
     prices: ["jetbrain license", "jetbrain license"]
   },
   next: {
