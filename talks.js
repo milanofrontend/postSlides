@@ -196,7 +196,7 @@ export default {
     spreadsheet: spreadsheetUrl("1v587IDlWd1e3P4kGvO4ej7WwnkjXTPOUN3sOxfZ3TzQ"),
     prices: ["jetbrain license", "jetbrain license"]
   },
-  current: {
+  t201903: {
     id: "t201903",
     title: "SOLID principles & Apollo GraphQL",
     speaker: "Erdogan Tufa & Przemysław Fałowski",
@@ -204,6 +204,16 @@ export default {
     date: "27 Marzo",
     form: "https://bit.ly/2Wr8nGo",
     spreadsheet: spreadsheetUrl("1ZiCu588y_3eHrRlhkitu_eJCr9NBBHA9G_EGgY9mqxw"),
+    prices: ["jetbrain license", "jetbrain license"]
+  },
+  current: {
+    id: "t201904",
+    title: "Test E2E da Cypress",
+    speaker: "Stefano Magni",
+    twitter: "@NoriSte",
+    date: "30 Aprile",
+    form: "http://bit.ly/2LcRm27",
+    spreadsheet: spreadsheetUrl("1m7_vWNUn6g-1pnI1FaJO_WXoAYuExTBJcHAToDNbI-w"),
     prices: ["jetbrain license", "jetbrain license"]
   },
   next: {
