@@ -206,7 +206,7 @@ export default {
     spreadsheet: spreadsheetUrl("1ZiCu588y_3eHrRlhkitu_eJCr9NBBHA9G_EGgY9mqxw"),
     prices: ["jetbrain license", "jetbrain license"]
   },
-  current: {
+  t201904: {
     id: "t201904",
     title: "Test E2E da Cypress",
     speaker: "Stefano Magni",
@@ -214,6 +214,16 @@ export default {
     date: "30 Aprile",
     form: "http://bit.ly/2LcRm27",
     spreadsheet: spreadsheetUrl("1m7_vWNUn6g-1pnI1FaJO_WXoAYuExTBJcHAToDNbI-w"),
+    prices: ["jetbrain license", "jetbrain license"]
+  },
+  current: {
+    id: "t201905",
+    title: "What's next in frontend-land?",
+    speaker: "Salvatore Laisa",
+    twitter: "@moebiusmania",
+    date: "21 Maggio",
+    form: "http://bit.ly/2QbpH08",
+    spreadsheet: spreadsheetUrl("1u7pU5IlWo6Doem41SitXKc8Rt1S4KWfuaaD6xbQnxRI"),
     prices: ["jetbrain license", "jetbrain license"]
   },
   next: {
