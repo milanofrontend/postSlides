@@ -224,7 +224,7 @@ export default {
     date: "21 Maggio",
     form: "http://bit.ly/2QbpH08",
     spreadsheet: spreadsheetUrl("1u7pU5IlWo6Doem41SitXKc8Rt1S4KWfuaaD6xbQnxRI"),
-    prices: ["jetbrain license", "jetbrain license"]
+    prices: ["jetbrain license", "jetbrain license", "serverless", "serverless"]
   },
   next: {
     id: "next",
