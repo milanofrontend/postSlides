@@ -216,7 +216,7 @@ export default {
     spreadsheet: spreadsheetUrl("1m7_vWNUn6g-1pnI1FaJO_WXoAYuExTBJcHAToDNbI-w"),
     prices: ["jetbrain license", "jetbrain license"]
   },
-  current: {
+  t201905: {
     id: "t201905",
     title: "What's next in frontend-land?",
     speaker: "Salvatore Laisa",
@@ -225,6 +225,16 @@ export default {
     form: "http://bit.ly/2QbpH08",
     spreadsheet: spreadsheetUrl("1u7pU5IlWo6Doem41SitXKc8Rt1S4KWfuaaD6xbQnxRI"),
     prices: ["jetbrain license", "jetbrain license", "serverless", "serverless"]
+  },
+  current: {
+    id: "t201906",
+    title: "Svelte 3, the React killer (?)",
+    speaker: "Valentino Gagliardi",
+    twitter: "@gagliardi_vale",
+    date: "25 Giugno",
+    form: "http://bit.ly/2FxtL73",
+    spreadsheet: spreadsheetUrl("12bMraRvreyGDQNoQfhesC85j4S1jHfO_wlvlwDzeYE8"),
+    prices: ["jetbrain license", "jetbrain license"]
   },
   next: {
     id: "next",
