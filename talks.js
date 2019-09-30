@@ -226,7 +226,7 @@ export default {
     spreadsheet: spreadsheetUrl("1u7pU5IlWo6Doem41SitXKc8Rt1S4KWfuaaD6xbQnxRI"),
     prices: ["jetbrain license", "jetbrain license", "serverless", "serverless"]
   },
-  current: {
+  t201906: {
     id: "t201906",
     title: "Svelte 3, the React killer (?)",
     speaker: "Valentino Gagliardi",
@@ -234,6 +234,16 @@ export default {
     date: "25 Giugno",
     form: "http://bit.ly/2FxtL73",
     spreadsheet: spreadsheetUrl("12bMraRvreyGDQNoQfhesC85j4S1jHfO_wlvlwDzeYE8"),
+    prices: ["jetbrain license", "jetbrain license"]
+  },
+  current: {
+    id: "t201909",
+    title: "Una passeggiata tra cetrioli, caffè e test e2e",
+    speaker: "Davide Di Pumpo",
+    twitter: "@makhbeth",
+    date: "30 Settembre",
+    form: "http://bit.ly/2nVGOcg",
+    spreadsheet: spreadsheetUrl("11n9XpbewfY4iSA0YePA2-Jyi_fxWIx6D0AqOWRXrsKI"),
     prices: ["jetbrain license", "jetbrain license"]
   },
   next: {
