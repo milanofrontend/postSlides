@@ -236,7 +236,7 @@ export default {
     spreadsheet: spreadsheetUrl("12bMraRvreyGDQNoQfhesC85j4S1jHfO_wlvlwDzeYE8"),
     prices: ["jetbrain license", "jetbrain license"]
   },
-  current: {
+  t201909: {
     id: "t201909",
     title: "Una passeggiata tra cetrioli, caffè e test e2e",
     speaker: "Davide Di Pumpo",
@@ -244,6 +244,16 @@ export default {
     date: "30 Settembre",
     form: "http://bit.ly/2nVGOcg",
     spreadsheet: spreadsheetUrl("11n9XpbewfY4iSA0YePA2-Jyi_fxWIx6D0AqOWRXrsKI"),
+    prices: ["jetbrain license", "jetbrain license"]
+  },
+  current: {
+    id: "t201910",
+    title: "TypeScript, React and you",
+    speaker: "Gabriele Petronella",
+    twitter: "@gabro27",
+    date: "22 Ottobre",
+    form: "http://bit.ly/35YxS7t",
+    spreadsheet: spreadsheetUrl("1fJhElM8j3jEzuEuTGGA4tlZh7CKAhGbNlaLWFhuReqI"),
     prices: ["jetbrain license", "jetbrain license"]
   },
   next: {
