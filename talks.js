@@ -252,7 +252,7 @@ export default {
     speaker: "Gabriele Petronella",
     twitter: "@gabro27",
     date: "22 Ottobre",
-    form: "http://bit.ly/35YxS7t",
+    form: "http://bit.ly/MFM-1019",
     spreadsheet: spreadsheetUrl("1fJhElM8j3jEzuEuTGGA4tlZh7CKAhGbNlaLWFhuReqI"),
     prices: ["jetbrain license", "jetbrain license"]
   },

@@ -87,22 +87,20 @@ export default class Presentation extends React.Component {
             <Heading size={3} textColor="primary">
               Follow up
             </Heading>
+            <A href="https://bit.ly/MFM-slack">//bit.ly/MFM-slack</A>
             <Logo />
-            <A href="https://frontendersmeetups.herokuapp.com/">
-              frontendersmeetups.herokuapp.com
-            </A>
           </Slide>
           <Slide transition={["fade"]} bgColor="primary" id="⁉️">
             <Heading size={6} textColor="secondary" caps>
               Feedback please
             </Heading>
+            <Heading size={6} textColor="secondary" caps>
+              <A href={poll}>{poll.slice(5)}</A>
+            </Heading>
+            <QRCode url={poll} />
             <Heading size={3} textColor="secondary">
               Join the raffle!
             </Heading>
-            <QRCode url={poll} />
-            <div>
-              <A href={poll}>{poll}</A>
-            </div>
           </Slide>
           <Slide transition={["fade"]} bgColor="primary" id="👇">
             <Heading size={3} textColor="secondary" caps>
