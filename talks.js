@@ -246,7 +246,7 @@ export default {
     spreadsheet: spreadsheetUrl("11n9XpbewfY4iSA0YePA2-Jyi_fxWIx6D0AqOWRXrsKI"),
     prices: ["jetbrain license", "jetbrain license"]
   },
-  current: {
+  t201910: {
     id: "t201910",
     title: "TypeScript, React and you",
     speaker: "Gabriele Petronella",
@@ -254,6 +254,16 @@ export default {
     date: "22 Ottobre",
     form: "http://bit.ly/MFM-1019",
     spreadsheet: spreadsheetUrl("1fJhElM8j3jEzuEuTGGA4tlZh7CKAhGbNlaLWFhuReqI"),
+    prices: ["jetbrain license", "jetbrain license"]
+  },
+  current: {
+    id: "t201911",
+    title: "Piglia il meglio dalle tue code review",
+    speaker: "Mattia Tommasone",
+    twitter: "@raibaz",
+    date: "26 Novembre",
+    form: "http://bit.ly/MFM-1119",
+    spreadsheet: spreadsheetUrl("1Zvl-qG11vUbpbe0sY7fVylUFQT28a0G2mgGm48LHMys"),
     prices: ["jetbrain license", "jetbrain license"]
   },
   next: {
