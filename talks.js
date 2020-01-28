@@ -256,7 +256,7 @@ export default {
     spreadsheet: spreadsheetUrl("1fJhElM8j3jEzuEuTGGA4tlZh7CKAhGbNlaLWFhuReqI"),
     prices: ["jetbrain license", "jetbrain license"]
   },
-  current: {
+  t201911: {
     id: "t201911",
     title: "Piglia il meglio dalle tue code review",
     speaker: "Mattia Tommasone",
@@ -265,6 +265,26 @@ export default {
     form: "http://bit.ly/MFM-1119",
     spreadsheet: spreadsheetUrl("1Zvl-qG11vUbpbe0sY7fVylUFQT28a0G2mgGm48LHMys"),
     prices: ["jetbrain license", "jetbrain license"]
+  },
+  t201912: {
+    id: "t201912",
+    title: "Flutter & Me [a Xmas tale]",
+    speaker: "Salvatore Laisa",
+    twitter: "@moebiusmania",
+    date: "17 Dicembre 2019",
+    form: "",
+    spreadsheet: spreadsheetUrl(""),
+    prices: ["jetbrain license", "jetbrain license"]
+  },
+  current: {
+    id: "t202001",
+    title: "Mortal Kombat Front-end Edition",
+    speaker: "Giulia Talamonti",
+    twitter: "@giucot_",
+    date: "28 Gennaio 2020",
+    form: "http://bit.ly/MFM-0120",
+    spreadsheet: spreadsheetUrl("1u0w5_dICxQxhO_fH4rGSy61eMX-8w45PckOx7l6_yXs"),
+    prices: ["jetbrain license", "jetbrain license", "React Summit Amsterdam"]
   },
   next: {
     id: "next",
